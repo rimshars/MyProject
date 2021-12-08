@@ -1,0 +1,11 @@
+import mymodule
+a=int(input("Enter a 1st no:"))
+b=int(input("Enter a 2nd no:"))
+x=mymodule.divide(a,b)
+y=mymodule.sub(a,b)
+w=mymodule.add(a,b)
+z=mymodule.multiply(a,b)
+print("Divide=",x)
+print("Subtract=",y)
+print("Add=",w)
+print("Multiply=",z)
