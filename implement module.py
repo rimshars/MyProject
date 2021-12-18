@@ -1,11 +1,7 @@
-import mymodule
-a=int(input("Enter a 1st no:"))
-b=int(input("Enter a 2nd no:"))
-x=mymodule.divide(a,b)
-y=mymodule.sub(a,b)
-w=mymodule.add(a,b)
-z=mymodule.multiply(a,b)
-print("Divide=",x)
-print("Subtract=",y)
-print("Add=",w)
-print("Multiply=",z)
+import mymodule as mm
+num1=int(input("Enter 1st number: "))
+num2=int(input("Enter 2nd number: "))
+print("Division of the numbers is: ",mm.divide(num1,num2))
+print("Subtraction of the numbers is: ",mm.sub(num1,num2))
+print("Addition of the numbers is: ",mm.add(num1,num2))
+print("Multiplication of the numbers is: ",mm.multiply(num1,num2))
